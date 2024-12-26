@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7ECF6"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose broadcast receiver for you"
+        android:textSize="20sp"/>
+
+    <Switch
+        android:id="@+id/swIncomingCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#FFFFFF"
+        android:showText="true"
+        android:textOn="Start"
+        android:textOff="Stop"
+        android:text="Incoming Call Receiver" />
+
+    <Switch
+        android:id="@+id/swNetworkConnected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#FFFFFF"
+        android:showText="true"
+        android:textOn="Start"
+        android:textOff="Stop"
+        android:text="Network On/Off Receiver" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"/>
+
+    <Switch
+        android:id="@+id/swBattery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#FFFFFF"
+        android:showText="true"
+        android:textOn="Start"
+        android:textOff="Stop"
+        android:text="Battery Status" />
+
+
+</LinearLayout>
